@@ -1,8 +1,6 @@
-import numpy as np
 from fractions import Fraction
 from prettytable import PrettyTable
 from base.operate_vec import *
-from scipy.linalg import lu, lu_solve, lu_factor
 
 BORDERS = False
 
