@@ -4,7 +4,6 @@ from prettytable import PrettyTable
 
 BORDERS = True
 
-# from
 V = np.array([
     [1, 0, 0, 0],
     [0, 1, 0, 0],
@@ -100,5 +99,5 @@ for i in range(len(Pls)):
 print("\n----CUSTOM----")
 p1 = Pls[0]
 p2 = Pls[1]
-mprint("sum a", 1 * p1 + -1 * p2 + 3 * Pls[2] + 5 * Pls[3])
+# mprint("sum a", 1 * p1 + -1 * p2 + 3 * Pls[2] + 5 * Pls[3])
 
